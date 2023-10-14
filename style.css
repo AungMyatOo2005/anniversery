@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mohave:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -44,4 +45,30 @@ h1 {
 }
 .countBox ul li p:nth-child(2) {
   font-size: 30px;
+}
+.hide {
+  display: none;
+}
+.contentBox {
+  color: white;
+  padding: 0px 20px;
+  margin-top: 50px;
+  width: 100%;
+}
+.contentBox h3 {
+  text-align: center;
+  font-family: "Handlee", cursive;
+  color: rgb(0, 0, 0);
+  padding: 30px 20px;
+  border-radius: 5px;
+  background: rgb(193, 219, 213);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 219, 213, 1) 0%,
+    rgba(218, 78, 219, 1) 23%,
+    rgba(150, 232, 233, 1) 60%,
+    rgba(163, 133, 214, 1) 89%
+  );
+  width: 400px;
+  margin: 0 auto;
 }
