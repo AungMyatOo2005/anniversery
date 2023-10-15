@@ -72,3 +72,8 @@ h1 {
   width: 400px;
   margin: 0 auto;
 }
+@media (max-width:500px) {
+  .contentBox h3{
+    width: 300px;
+  }
+}
