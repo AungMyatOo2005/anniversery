@@ -13,6 +13,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  padding: 0px 10px;
 }
 h1 {
   margin-top: 20px;
@@ -49,13 +50,14 @@ h1 {
 .hide {
   display: none;
 }
+.flex {
+  display: flex;
+}
 .contentBox {
   color: white;
   padding: 0px 20px;
   margin-top: 50px;
   width: 100%;
-}
-.contentBox h3 {
   text-align: center;
   font-family: "Handlee", cursive;
   color: rgb(0, 0, 0);
@@ -69,11 +71,45 @@ h1 {
     rgba(150, 232, 233, 1) 60%,
     rgba(163, 133, 214, 1) 89%
   );
-  width: 400px;
+  width: 380px;
   margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-@media (max-width:500px) {
-  .contentBox h3{
-    width: 300px;
+.textForYou {
+  font-size: 14px;
+  max-width: 250px;
+}
+.img-control-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+}
+.img-control-box button {
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+}
+.usImg {
+  border: none;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .contentBox {
+    width: 100%;
+  }
+  .img-control-box button {
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
   }
 }
