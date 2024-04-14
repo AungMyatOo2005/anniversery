@@ -47,7 +47,7 @@ function countTime() {
   const currentTime = new Date();
   const remainingTime = anniversaryDate - currentTime;
 
-  if (remainingTime > 0) {
+  if (remainingTime <= 0) {
     clearInterval(intervalId);
     contentBox.classList.remove("hide");
     createImgAndText();
