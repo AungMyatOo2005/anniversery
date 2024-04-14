@@ -27,6 +27,7 @@ h1 {
   width: fit-content;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .countBox ul {
   display: flex;
@@ -54,23 +55,13 @@ h1 {
   display: flex;
 }
 .contentBox {
-  color: white;
-  padding: 0px 20px;
-  margin-top: 50px;
-  width: 100%;
   text-align: center;
   font-family: "Handlee", cursive;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 30px 20px;
-  border-radius: 5px;
-  background: rgb(193, 219, 213);
-  background: linear-gradient(
-    90deg,
-    rgba(193, 219, 213, 1) 0%,
-    rgba(218, 78, 219, 1) 23%,
-    rgba(150, 232, 233, 1) 60%,
-    rgba(163, 133, 214, 1) 89%
-  );
+  border-radius: 10px;
+  background-color: #ffffff18;
+  backdrop-filter: blur(10px);
   width: 380px;
   margin: 0 auto;
   align-items: center;
@@ -89,7 +80,7 @@ h1 {
   overflow: hidden;
 }
 .img-control-box button {
-  color: black;
+  color: rgb(255, 255, 255);
   background-color: transparent;
   border: none;
   font-size: 24px;
